@@ -10,28 +10,28 @@ $PaybrasConfig = array();
 $PaybrasConfig['ambiente'] = Array();
 
 //Serviço de consulta de status de Transação para ambiente de produção
-$PaybrasConfig['ambiente']['status']['producao'] = "https://service.paybras.com/payment/getStatus";
+$PaybrasConfig['ambiente']['status']['producao'] = "https://service.embrapag.com/payment/getStatus";
 //Serviço de consulta de status de Transação para ambiente de sandbox
 $PaybrasConfig['ambiente']['status']['sandbox'] = "https://sandbox.paybras.com/payment/getStatus";
 //Serviço de consulta de status de Transação para ambiente local - apenas para desenvolvedores paybras
 $PaybrasConfig['ambiente']['status']['local'] = "http://localhost/paybras/payment/getStatus";
 
 //Serviço de consulta de parcelas para ambiente de produção
-$PaybrasConfig['ambiente']['parcelas']['producao'] = "https://service.paybras.com/payment/getParcelas";
+$PaybrasConfig['ambiente']['parcelas']['producao'] = "https://service.embrapag.com/payment/getParcelas";
 //Serviço de consulta de parcelas para ambiente de sandbox
 $PaybrasConfig['ambiente']['parcelas']['sandbox'] = "https://sandbox.paybras.com/payment/getParcelas";
 //Serviço de consulta de parcelas para ambiente local - apenas para desenvolvedores paybras
 $PaybrasConfig['ambiente']['parcelas']['local'] = "http://localhost/paybras/payment/getParcelas";
 
 //Serviço de criação de transação para ambiente de produção
-$PaybrasConfig['ambiente']['criacao']['producao'] = "https://service.paybras.com/payment/api/criaTransacao";
+$PaybrasConfig['ambiente']['criacao']['producao'] = "https://service.embrapag.com/payment/api/criaTransacao";
 //Serviço de criação de transação para ambiente de sandbox
 $PaybrasConfig['ambiente']['criacao']['sandbox'] = "https://sandbox.paybras.com/payment/api/criaTransacao";
 //Serviço de criação de transação para ambiente local
 $PaybrasConfig['ambiente']['criacao']['local'] = "http://localhost/paybras/payment/api/criaTransacao";
 
 //Serviço de envio de códigos de rastreio em lote para ambiente de produção
-$PaybrasConfig['ambiente']['rastreio']['producao'] = "https://service.paybras.com/payment/transactions/enviaRastreio";
+$PaybrasConfig['ambiente']['rastreio']['producao'] = "https://service.embrapag.com/payment/transactions/enviaRastreio";
 //Serviço de envio de códigos de rastreio em lote para ambiente de sandbox
 $PaybrasConfig['ambiente']['rastreio']['sandbox'] = "https://sandbox.paybras.com/payment/transactions/enviaRastreio";
 //Serviço de envio de códigos de rastreio em lote para ambiente local
