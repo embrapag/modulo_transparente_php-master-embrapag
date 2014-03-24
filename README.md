@@ -4,7 +4,7 @@ Checkout Transparente em PHP
 Descrição
 ---------
 
-Este pacote contém uma série de arquivos, na linguagem PHP, utilizados para faciliar a integração, pelos desenvolvedores, junto à API do Paybras. Pode ser utilizado para realizar a integração de:
+Este pacote contém uma série de arquivos, na linguagem PHP, utilizados para faciliar a integração, pelos desenvolvedores, junto à API do Embrapag. Pode ser utilizado para realizar a integração de:
 * Consulta de Parcelas;
 * Consulta de Transações;
 * Criação de Transações.
@@ -25,7 +25,7 @@ Componentes do pacote
 Este pacote contém a seguinte estrutura:
 * classes: contém todas as classes necessárias para manipulação de dados, validação e criação de requisição;
 * config: contém os arquivos de configuração;
-* servicos: contém os servicos utilizados para a motangem do dados a serem enviados a API Paybras
+* servicos: contém os servicos utilizados para a motangem do dados a serem enviados a API Embrapag
 
 Configuração
 ------------
@@ -38,4 +38,4 @@ Para utilização deste pacote é necessário passar, nos arquivos de configura�
 Nota
 ----
 
-Em caso de dúvidas entre em contato com o suporte Paybras através dos contatos fornecidos por nossa equipe.
+Em caso de dúvidas entre em contato com o suporte Embrapag através dos contatos fornecidos por nossa equipe.
